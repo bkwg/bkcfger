@@ -1,7 +1,9 @@
 # bkcfger
 
-This is a program that enable to convert an x86_64 assembly instructions  
-in a CFG.  
+This is a program that enables to convert x86_64 assembly instructions into a CFG.  
    
+You can use the "_draw.sh_" script to convert the '_graph.dot_' file to a png (Graphviz' _dot_ tool is required).  
 Relies on Zydis for the disassembly.  
-A dot interpreter is needed to create an image from the 'graph.dot' file.  
+  
+#### Output example:
+![Output example](graph_3.png)
